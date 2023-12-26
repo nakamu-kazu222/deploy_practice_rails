@@ -6,5 +6,5 @@ Rails.application.routes.draw do
   # root "articles#index"
   root to: 'memos#index'
 
-  get '/mockServiceWorker.js', to: 'memos_controller#index'
+  # get '/mockServiceWorker.js', to: 'memos_controller#index'
 end
