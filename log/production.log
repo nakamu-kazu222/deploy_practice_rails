@@ -1,0 +1,2 @@
+W, [2023-12-26T19:28:24.188725 #65553]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-12-26T19:28:24.287007 #65553]  INFO -- : Migrating to CreateMemos (20231226102759)
