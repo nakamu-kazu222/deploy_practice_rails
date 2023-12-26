@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   root to: 'memos#index'
+
+  get '/mockServiceWorker.js', to: 'memos_controller#index'
 end
