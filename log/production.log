@@ -201,3 +201,56 @@ I, [2023-12-26T19:44:17.350953 #75597]  INFO -- : [8c0a00aa-4d61-4578-9d29-d5739
 F, [2023-12-26T19:44:17.351558 #75597] FATAL -- : [8c0a00aa-4d61-4578-9d29-d57392b65e35]   
 [8c0a00aa-4d61-4578-9d29-d57392b65e35] ActionController::RoutingError (uninitialized constant MemosControllerController):
 [8c0a00aa-4d61-4578-9d29-d57392b65e35]   
+W, [2023-12-26T19:45:24.595495 #76816]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-12-26T19:45:27.806813 #76816]  INFO -- : [f531342b-8d93-4cb2-a7b7-7888c9a1cdf6] Started GET "/" for 127.0.0.1 at 2023-12-26 19:45:27 +0900
+I, [2023-12-26T19:45:27.809159 #76816]  INFO -- : [f531342b-8d93-4cb2-a7b7-7888c9a1cdf6] Processing by MemosController#index as HTML
+I, [2023-12-26T19:45:27.822747 #76816]  INFO -- : [f531342b-8d93-4cb2-a7b7-7888c9a1cdf6]   Rendered memos/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1970)
+I, [2023-12-26T19:45:27.825802 #76816]  INFO -- : [f531342b-8d93-4cb2-a7b7-7888c9a1cdf6]   Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 4764)
+I, [2023-12-26T19:45:27.826339 #76816]  INFO -- : [f531342b-8d93-4cb2-a7b7-7888c9a1cdf6] Completed 200 OK in 17ms (Views: 12.8ms | ActiveRecord: 0.9ms | Allocations: 6424)
+I, [2023-12-26T19:45:27.839138 #76816]  INFO -- : [fed338fb-5d7e-4fd3-b117-dc4137512d37] Started GET "/assets/application-e0cf9d8fcb18bf7f909d8d91a5e78499f82ac29523d475bf3a9ab265d5e2b451.css" for 127.0.0.1 at 2023-12-26 19:45:27 +0900
+I, [2023-12-26T19:45:27.841444 #76816]  INFO -- : [c36602e5-febd-4409-8423-a7df37dfc8d9] Started GET "/assets/es-module-shims.min-4ca9b3dd5e434131e3bb4b0c1d7dff3bfd4035672a5086deec6f73979a49be73.js" for 127.0.0.1 at 2023-12-26 19:45:27 +0900
+I, [2023-12-26T19:45:27.846619 #76816]  INFO -- : [ca1558a9-ac40-4d45-a80b-ade4c8d6c455] Started GET "/assets/turbo.min-dfd93b3092d1d0ff56557294538d069bdbb28977d3987cb39bc0dd892f32fc57.js" for 127.0.0.1 at 2023-12-26 19:45:27 +0900
+I, [2023-12-26T19:45:27.848352 #76816]  INFO -- : [7a95041b-aba2-4f99-857f-042decd10b37] Started GET "/assets/stimulus.min-dd364f16ec9504dfb72672295637a1c8838773b01c0b441bd41008124c407894.js" for 127.0.0.1 at 2023-12-26 19:45:27 +0900
+I, [2023-12-26T19:45:27.847189 #76816]  INFO -- : [d3ea4490-6fac-4f2a-94b6-ef34596deac7] Started GET "/assets/application-37f365cbecf1fa2810a8303f4b6571676fa1f9c56c248528bc14ddb857531b95.js" for 127.0.0.1 at 2023-12-26 19:45:27 +0900
+I, [2023-12-26T19:45:27.885867 #76816]  INFO -- : [e630c375-a1b4-4930-9595-b6cad24d8fda] Started GET "/assets/controllers/index-2db729dddcc5b979110e98de4b6720f83f91a123172e87281d5a58410fc43806.js" for 127.0.0.1 at 2023-12-26 19:45:27 +0900
+I, [2023-12-26T19:45:27.898712 #76816]  INFO -- : [1a588687-6dcd-4a59-880f-df34bbb18390] Started GET "/assets/controllers/application-368d98631bccbf2349e0d4f8269afb3fe9625118341966de054759d96ea86c7e.js" for 127.0.0.1 at 2023-12-26 19:45:27 +0900
+I, [2023-12-26T19:45:28.058118 #76816]  INFO -- : [d1474996-3be8-45d4-83c5-ec0ddfbae4bd] Started GET "/assets/stimulus-loading-3576ce92b149ad5d6959438c6f291e2426c86df3b874c525b30faad51b0d96b3.js" for 127.0.0.1 at 2023-12-26 19:45:28 +0900
+I, [2023-12-26T19:45:28.077148 #76816]  INFO -- : [ebf71acb-2a9e-4517-b52c-2007899a96d1] Started GET "/assets/controllers/hello_controller-549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554.js" for 127.0.0.1 at 2023-12-26 19:45:28 +0900
+I, [2023-12-26T19:45:28.844230 #76816]  INFO -- : [445f5117-3c12-49b7-a29d-56c1fc6636da] Started GET "/" for 127.0.0.1 at 2023-12-26 19:45:28 +0900
+I, [2023-12-26T19:45:28.844935 #76816]  INFO -- : [445f5117-3c12-49b7-a29d-56c1fc6636da] Processing by MemosController#index as HTML
+I, [2023-12-26T19:45:28.847062 #76816]  INFO -- : [445f5117-3c12-49b7-a29d-56c1fc6636da]   Rendered memos/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 349)
+I, [2023-12-26T19:45:28.848052 #76816]  INFO -- : [445f5117-3c12-49b7-a29d-56c1fc6636da]   Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 899)
+I, [2023-12-26T19:45:28.848262 #76816]  INFO -- : [445f5117-3c12-49b7-a29d-56c1fc6636da] Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.4ms | Allocations: 1113)
+I, [2023-12-26T19:45:29.354676 #76816]  INFO -- : [417f3899-c6b0-47d3-96b3-5ea028fd47e9] Started GET "/" for 127.0.0.1 at 2023-12-26 19:45:29 +0900
+I, [2023-12-26T19:45:29.355480 #76816]  INFO -- : [417f3899-c6b0-47d3-96b3-5ea028fd47e9] Processing by MemosController#index as HTML
+I, [2023-12-26T19:45:29.357103 #76816]  INFO -- : [417f3899-c6b0-47d3-96b3-5ea028fd47e9]   Rendered memos/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 327)
+I, [2023-12-26T19:45:29.357834 #76816]  INFO -- : [417f3899-c6b0-47d3-96b3-5ea028fd47e9]   Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 877)
+I, [2023-12-26T19:45:29.358004 #76816]  INFO -- : [417f3899-c6b0-47d3-96b3-5ea028fd47e9] Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 1090)
+I, [2023-12-26T19:45:29.645473 #76816]  INFO -- : [177a528e-5feb-4b39-9123-f961b0f30895] Started GET "/mockServiceWorker.js" for 127.0.0.1 at 2023-12-26 19:45:29 +0900
+F, [2023-12-26T19:45:29.646176 #76816] FATAL -- : [177a528e-5feb-4b39-9123-f961b0f30895]   
+[177a528e-5feb-4b39-9123-f961b0f30895] ActionController::RoutingError (uninitialized constant MemosControllerController):
+[177a528e-5feb-4b39-9123-f961b0f30895]   
+I, [2023-12-26T19:45:30.307312 #76816]  INFO -- : [b7fc68ac-df5b-4910-a25f-f2505b6af0f0] Started GET "/memos/new" for 127.0.0.1 at 2023-12-26 19:45:30 +0900
+I, [2023-12-26T19:45:30.307868 #76816]  INFO -- : [b7fc68ac-df5b-4910-a25f-f2505b6af0f0] Processing by MemosController#new as HTML
+I, [2023-12-26T19:45:30.320514 #76816]  INFO -- : [b7fc68ac-df5b-4910-a25f-f2505b6af0f0]   Rendered memos/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2339)
+I, [2023-12-26T19:45:30.322005 #76816]  INFO -- : [b7fc68ac-df5b-4910-a25f-f2505b6af0f0]   Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2893)
+I, [2023-12-26T19:45:30.322262 #76816]  INFO -- : [b7fc68ac-df5b-4910-a25f-f2505b6af0f0] Completed 200 OK in 14ms (Views: 5.6ms | ActiveRecord: 3.4ms | Allocations: 6855)
+I, [2023-12-26T19:45:30.943382 #76816]  INFO -- : [89f27c61-30fc-44d4-9984-26b21f239c14] Started GET "/mockServiceWorker.js" for 127.0.0.1 at 2023-12-26 19:45:30 +0900
+F, [2023-12-26T19:45:30.944223 #76816] FATAL -- : [89f27c61-30fc-44d4-9984-26b21f239c14]   
+[89f27c61-30fc-44d4-9984-26b21f239c14] ActionController::RoutingError (uninitialized constant MemosControllerController):
+[89f27c61-30fc-44d4-9984-26b21f239c14]   
+I, [2023-12-26T19:45:33.284134 #76816]  INFO -- : [650788eb-4403-4637-b834-cd160981039e] Started POST "/memos" for 127.0.0.1 at 2023-12-26 19:45:33 +0900
+I, [2023-12-26T19:45:33.284743 #76816]  INFO -- : [650788eb-4403-4637-b834-cd160981039e] Processing by MemosController#create as TURBO_STREAM
+I, [2023-12-26T19:45:33.285245 #76816]  INFO -- : [650788eb-4403-4637-b834-cd160981039e]   Parameters: {"authenticity_token"=>"[FILTERED]", "memo"=>{"title"=>"あ", "content"=>""}, "commit"=>"Create Memo"}
+I, [2023-12-26T19:45:33.291492 #76816]  INFO -- : [650788eb-4403-4637-b834-cd160981039e] Redirected to http://localhost:3000/memos/1
+I, [2023-12-26T19:45:33.291605 #76816]  INFO -- : [650788eb-4403-4637-b834-cd160981039e] Completed 302 Found in 6ms (ActiveRecord: 3.0ms | Allocations: 1504)
+I, [2023-12-26T19:45:33.293815 #76816]  INFO -- : [1ee843e1-124b-4607-8d9b-060ebb278487] Started GET "/memos/1" for 127.0.0.1 at 2023-12-26 19:45:33 +0900
+I, [2023-12-26T19:45:33.294336 #76816]  INFO -- : [1ee843e1-124b-4607-8d9b-060ebb278487] Processing by MemosController#show as TURBO_STREAM
+I, [2023-12-26T19:45:33.294375 #76816]  INFO -- : [1ee843e1-124b-4607-8d9b-060ebb278487]   Parameters: {"id"=>"1"}
+I, [2023-12-26T19:45:33.299206 #76816]  INFO -- : [1ee843e1-124b-4607-8d9b-060ebb278487]   Rendered memos/show.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1160)
+I, [2023-12-26T19:45:33.299883 #76816]  INFO -- : [1ee843e1-124b-4607-8d9b-060ebb278487]   Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1703)
+I, [2023-12-26T19:45:33.300061 #76816]  INFO -- : [1ee843e1-124b-4607-8d9b-060ebb278487] Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 0.6ms | Allocations: 2567)
+I, [2023-12-26T19:46:04.280740 #76816]  INFO -- : [a61e306e-1e7b-430d-9ac3-d39986d802c6] Started GET "/mockServiceWorker.js" for 127.0.0.1 at 2023-12-26 19:46:04 +0900
+F, [2023-12-26T19:46:04.281572 #76816] FATAL -- : [a61e306e-1e7b-430d-9ac3-d39986d802c6]   
+[a61e306e-1e7b-430d-9ac3-d39986d802c6] ActionController::RoutingError (uninitialized constant MemosControllerController):
+[a61e306e-1e7b-430d-9ac3-d39986d802c6]   
