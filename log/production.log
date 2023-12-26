@@ -51,3 +51,153 @@ I, [2023-12-26T19:33:55.053643 #68626]  INFO -- : [79b0b420-6bc2-4979-b356-07e8c
 F, [2023-12-26T19:33:55.054611 #68626] FATAL -- : [79b0b420-6bc2-4979-b356-07e8cd45375b]   
 [79b0b420-6bc2-4979-b356-07e8cd45375b] ActionController::RoutingError (No route matches [GET] "/mockServiceWorker.js"):
 [79b0b420-6bc2-4979-b356-07e8cd45375b]   
+W, [2023-12-26T19:38:26.850724 #71843]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-12-26T19:38:30.054047 #71843]  INFO -- : [2cf9f1d6-c1d7-47ef-92b6-63da9df3335c] Started GET "/" for 127.0.0.1 at 2023-12-26 19:38:30 +0900
+I, [2023-12-26T19:38:30.056060 #71843]  INFO -- : [2cf9f1d6-c1d7-47ef-92b6-63da9df3335c] Processing by MemosController#index as HTML
+I, [2023-12-26T19:38:30.080766 #71843]  INFO -- : [2cf9f1d6-c1d7-47ef-92b6-63da9df3335c]   Rendered memos/index.html.erb within layouts/application (Duration: 16.4ms | Allocations: 1972)
+I, [2023-12-26T19:38:30.082524 #71843]  INFO -- : [2cf9f1d6-c1d7-47ef-92b6-63da9df3335c]   Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 2668)
+I, [2023-12-26T19:38:30.082706 #71843]  INFO -- : [2cf9f1d6-c1d7-47ef-92b6-63da9df3335c] Completed 500 Internal Server Error in 27ms (ActiveRecord: 5.7ms | Allocations: 4273)
+F, [2023-12-26T19:38:30.083366 #71843] FATAL -- : [2cf9f1d6-c1d7-47ef-92b6-63da9df3335c]   
+[2cf9f1d6-c1d7-47ef-92b6-63da9df3335c] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[2cf9f1d6-c1d7-47ef-92b6-63da9df3335c]      6:     <%= csrf_meta_tags %>
+[2cf9f1d6-c1d7-47ef-92b6-63da9df3335c]      7:     <%= csp_meta_tag %>
+[2cf9f1d6-c1d7-47ef-92b6-63da9df3335c]      8: 
+[2cf9f1d6-c1d7-47ef-92b6-63da9df3335c]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[2cf9f1d6-c1d7-47ef-92b6-63da9df3335c]     10:     <%= javascript_importmap_tags %>
+[2cf9f1d6-c1d7-47ef-92b6-63da9df3335c]     11:   </head>
+[2cf9f1d6-c1d7-47ef-92b6-63da9df3335c]     12: 
+[2cf9f1d6-c1d7-47ef-92b6-63da9df3335c]   
+[2cf9f1d6-c1d7-47ef-92b6-63da9df3335c] app/views/layouts/application.html.erb:9
+I, [2023-12-26T19:38:31.665182 #71843]  INFO -- : [b220020c-0283-4681-9e1e-52852d974ead] Started GET "/" for 127.0.0.1 at 2023-12-26 19:38:31 +0900
+I, [2023-12-26T19:38:31.665892 #71843]  INFO -- : [b220020c-0283-4681-9e1e-52852d974ead] Processing by MemosController#index as HTML
+I, [2023-12-26T19:38:31.667885 #71843]  INFO -- : [b220020c-0283-4681-9e1e-52852d974ead]   Rendered memos/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 210)
+I, [2023-12-26T19:38:31.669199 #71843]  INFO -- : [b220020c-0283-4681-9e1e-52852d974ead]   Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 498)
+I, [2023-12-26T19:38:31.669360 #71843]  INFO -- : [b220020c-0283-4681-9e1e-52852d974ead] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.2ms | Allocations: 688)
+F, [2023-12-26T19:38:31.670174 #71843] FATAL -- : [b220020c-0283-4681-9e1e-52852d974ead]   
+[b220020c-0283-4681-9e1e-52852d974ead] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[b220020c-0283-4681-9e1e-52852d974ead]      6:     <%= csrf_meta_tags %>
+[b220020c-0283-4681-9e1e-52852d974ead]      7:     <%= csp_meta_tag %>
+[b220020c-0283-4681-9e1e-52852d974ead]      8: 
+[b220020c-0283-4681-9e1e-52852d974ead]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[b220020c-0283-4681-9e1e-52852d974ead]     10:     <%= javascript_importmap_tags %>
+[b220020c-0283-4681-9e1e-52852d974ead]     11:   </head>
+[b220020c-0283-4681-9e1e-52852d974ead]     12: 
+[b220020c-0283-4681-9e1e-52852d974ead]   
+[b220020c-0283-4681-9e1e-52852d974ead] app/views/layouts/application.html.erb:9
+I, [2023-12-26T19:38:31.698689 #71843]  INFO -- : [b344e602-a3d7-45e4-9d06-0dbd85b1cf64] Started GET "/mockServiceWorker.js" for 127.0.0.1 at 2023-12-26 19:38:31 +0900
+F, [2023-12-26T19:38:31.699366 #71843] FATAL -- : [b344e602-a3d7-45e4-9d06-0dbd85b1cf64]   
+[b344e602-a3d7-45e4-9d06-0dbd85b1cf64] ActionController::RoutingError (No route matches [GET] "/mockServiceWorker.js"):
+[b344e602-a3d7-45e4-9d06-0dbd85b1cf64]   
+I, [2023-12-26T19:38:32.364105 #71843]  INFO -- : [72e896e0-fc38-4fe1-994b-de2dd3bcf047] Started GET "/" for 127.0.0.1 at 2023-12-26 19:38:32 +0900
+I, [2023-12-26T19:38:32.364782 #71843]  INFO -- : [72e896e0-fc38-4fe1-994b-de2dd3bcf047] Processing by MemosController#index as HTML
+I, [2023-12-26T19:38:32.366308 #71843]  INFO -- : [72e896e0-fc38-4fe1-994b-de2dd3bcf047]   Rendered memos/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 209)
+I, [2023-12-26T19:38:32.366901 #71843]  INFO -- : [72e896e0-fc38-4fe1-994b-de2dd3bcf047]   Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 497)
+I, [2023-12-26T19:38:32.367023 #71843]  INFO -- : [72e896e0-fc38-4fe1-994b-de2dd3bcf047] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms | Allocations: 686)
+F, [2023-12-26T19:38:32.367763 #71843] FATAL -- : [72e896e0-fc38-4fe1-994b-de2dd3bcf047]   
+[72e896e0-fc38-4fe1-994b-de2dd3bcf047] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[72e896e0-fc38-4fe1-994b-de2dd3bcf047]      6:     <%= csrf_meta_tags %>
+[72e896e0-fc38-4fe1-994b-de2dd3bcf047]      7:     <%= csp_meta_tag %>
+[72e896e0-fc38-4fe1-994b-de2dd3bcf047]      8: 
+[72e896e0-fc38-4fe1-994b-de2dd3bcf047]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[72e896e0-fc38-4fe1-994b-de2dd3bcf047]     10:     <%= javascript_importmap_tags %>
+[72e896e0-fc38-4fe1-994b-de2dd3bcf047]     11:   </head>
+[72e896e0-fc38-4fe1-994b-de2dd3bcf047]     12: 
+[72e896e0-fc38-4fe1-994b-de2dd3bcf047]   
+[72e896e0-fc38-4fe1-994b-de2dd3bcf047] app/views/layouts/application.html.erb:9
+I, [2023-12-26T19:38:32.954284 #71843]  INFO -- : [8bf8abf4-354c-43fb-a9ed-892ec80d4205] Started GET "/" for 127.0.0.1 at 2023-12-26 19:38:32 +0900
+I, [2023-12-26T19:38:32.955078 #71843]  INFO -- : [8bf8abf4-354c-43fb-a9ed-892ec80d4205] Processing by MemosController#index as HTML
+I, [2023-12-26T19:38:32.956337 #71843]  INFO -- : [8bf8abf4-354c-43fb-a9ed-892ec80d4205]   Rendered memos/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 209)
+I, [2023-12-26T19:38:32.957069 #71843]  INFO -- : [8bf8abf4-354c-43fb-a9ed-892ec80d4205]   Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 497)
+I, [2023-12-26T19:38:32.957223 #71843]  INFO -- : [8bf8abf4-354c-43fb-a9ed-892ec80d4205] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms | Allocations: 686)
+F, [2023-12-26T19:38:32.958104 #71843] FATAL -- : [8bf8abf4-354c-43fb-a9ed-892ec80d4205]   
+[8bf8abf4-354c-43fb-a9ed-892ec80d4205] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[8bf8abf4-354c-43fb-a9ed-892ec80d4205]      6:     <%= csrf_meta_tags %>
+[8bf8abf4-354c-43fb-a9ed-892ec80d4205]      7:     <%= csp_meta_tag %>
+[8bf8abf4-354c-43fb-a9ed-892ec80d4205]      8: 
+[8bf8abf4-354c-43fb-a9ed-892ec80d4205]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[8bf8abf4-354c-43fb-a9ed-892ec80d4205]     10:     <%= javascript_importmap_tags %>
+[8bf8abf4-354c-43fb-a9ed-892ec80d4205]     11:   </head>
+[8bf8abf4-354c-43fb-a9ed-892ec80d4205]     12: 
+[8bf8abf4-354c-43fb-a9ed-892ec80d4205]   
+[8bf8abf4-354c-43fb-a9ed-892ec80d4205] app/views/layouts/application.html.erb:9
+I, [2023-12-26T19:38:34.534296 #71843]  INFO -- : [148b0ba4-6136-41cd-bda3-c8f5310c310c] Started GET "/mockServiceWorker.js" for 127.0.0.1 at 2023-12-26 19:38:34 +0900
+F, [2023-12-26T19:38:34.535517 #71843] FATAL -- : [148b0ba4-6136-41cd-bda3-c8f5310c310c]   
+[148b0ba4-6136-41cd-bda3-c8f5310c310c] ActionController::RoutingError (No route matches [GET] "/mockServiceWorker.js"):
+[148b0ba4-6136-41cd-bda3-c8f5310c310c]   
+I, [2023-12-26T19:39:03.962255 #71843]  INFO -- : [3e8a8cbc-fae5-4117-a9f4-ab890b59e1f3] Started GET "/mockServiceWorker.js" for 127.0.0.1 at 2023-12-26 19:39:03 +0900
+F, [2023-12-26T19:39:03.963087 #71843] FATAL -- : [3e8a8cbc-fae5-4117-a9f4-ab890b59e1f3]   
+[3e8a8cbc-fae5-4117-a9f4-ab890b59e1f3] ActionController::RoutingError (No route matches [GET] "/mockServiceWorker.js"):
+[3e8a8cbc-fae5-4117-a9f4-ab890b59e1f3]   
+W, [2023-12-26T19:42:38.068294 #74927]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-12-26T19:42:40.887968 #74927]  INFO -- : [f416d71d-b649-46f0-a8a9-dd7251b99acc] Started GET "/" for 127.0.0.1 at 2023-12-26 19:42:40 +0900
+I, [2023-12-26T19:42:40.890789 #74927]  INFO -- : [f416d71d-b649-46f0-a8a9-dd7251b99acc] Processing by MemosController#index as HTML
+I, [2023-12-26T19:42:40.906068 #74927]  INFO -- : [f416d71d-b649-46f0-a8a9-dd7251b99acc]   Rendered memos/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 1972)
+I, [2023-12-26T19:42:40.907895 #74927]  INFO -- : [f416d71d-b649-46f0-a8a9-dd7251b99acc]   Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 2668)
+I, [2023-12-26T19:42:40.908366 #74927]  INFO -- : [f416d71d-b649-46f0-a8a9-dd7251b99acc] Completed 500 Internal Server Error in 17ms (ActiveRecord: 1.0ms | Allocations: 4273)
+F, [2023-12-26T19:42:40.909207 #74927] FATAL -- : [f416d71d-b649-46f0-a8a9-dd7251b99acc]   
+[f416d71d-b649-46f0-a8a9-dd7251b99acc] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[f416d71d-b649-46f0-a8a9-dd7251b99acc]      6:     <%= csrf_meta_tags %>
+[f416d71d-b649-46f0-a8a9-dd7251b99acc]      7:     <%= csp_meta_tag %>
+[f416d71d-b649-46f0-a8a9-dd7251b99acc]      8: 
+[f416d71d-b649-46f0-a8a9-dd7251b99acc]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[f416d71d-b649-46f0-a8a9-dd7251b99acc]     10:     <%= javascript_importmap_tags %>
+[f416d71d-b649-46f0-a8a9-dd7251b99acc]     11:   </head>
+[f416d71d-b649-46f0-a8a9-dd7251b99acc]     12: 
+[f416d71d-b649-46f0-a8a9-dd7251b99acc]   
+[f416d71d-b649-46f0-a8a9-dd7251b99acc] app/views/layouts/application.html.erb:9
+I, [2023-12-26T19:42:41.882692 #74927]  INFO -- : [cabb53f3-a157-465e-942d-244c929b8605] Started GET "/" for 127.0.0.1 at 2023-12-26 19:42:41 +0900
+I, [2023-12-26T19:42:41.884386 #74927]  INFO -- : [cabb53f3-a157-465e-942d-244c929b8605] Processing by MemosController#index as HTML
+I, [2023-12-26T19:42:41.885685 #74927]  INFO -- : [cabb53f3-a157-465e-942d-244c929b8605]   Rendered memos/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 210)
+I, [2023-12-26T19:42:41.886246 #74927]  INFO -- : [cabb53f3-a157-465e-942d-244c929b8605]   Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 498)
+I, [2023-12-26T19:42:41.886371 #74927]  INFO -- : [cabb53f3-a157-465e-942d-244c929b8605] Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms | Allocations: 688)
+F, [2023-12-26T19:42:41.887166 #74927] FATAL -- : [cabb53f3-a157-465e-942d-244c929b8605]   
+[cabb53f3-a157-465e-942d-244c929b8605] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[cabb53f3-a157-465e-942d-244c929b8605]      6:     <%= csrf_meta_tags %>
+[cabb53f3-a157-465e-942d-244c929b8605]      7:     <%= csp_meta_tag %>
+[cabb53f3-a157-465e-942d-244c929b8605]      8: 
+[cabb53f3-a157-465e-942d-244c929b8605]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[cabb53f3-a157-465e-942d-244c929b8605]     10:     <%= javascript_importmap_tags %>
+[cabb53f3-a157-465e-942d-244c929b8605]     11:   </head>
+[cabb53f3-a157-465e-942d-244c929b8605]     12: 
+[cabb53f3-a157-465e-942d-244c929b8605]   
+[cabb53f3-a157-465e-942d-244c929b8605] app/views/layouts/application.html.erb:9
+I, [2023-12-26T19:42:43.505613 #74927]  INFO -- : [e4261421-ff84-46ad-a827-cded69049464] Started GET "/mockServiceWorker.js" for 127.0.0.1 at 2023-12-26 19:42:43 +0900
+F, [2023-12-26T19:42:43.511459 #74927] FATAL -- : [e4261421-ff84-46ad-a827-cded69049464]   
+[e4261421-ff84-46ad-a827-cded69049464] ActionController::RoutingError (uninitialized constant MemosControllerController):
+[e4261421-ff84-46ad-a827-cded69049464]   
+I, [2023-12-26T19:43:12.888512 #74927]  INFO -- : [92932017-22ce-4491-823f-a2ebd9c9c47f] Started GET "/mockServiceWorker.js" for 127.0.0.1 at 2023-12-26 19:43:12 +0900
+F, [2023-12-26T19:43:12.889490 #74927] FATAL -- : [92932017-22ce-4491-823f-a2ebd9c9c47f]   
+[92932017-22ce-4491-823f-a2ebd9c9c47f] ActionController::RoutingError (uninitialized constant MemosControllerController):
+[92932017-22ce-4491-823f-a2ebd9c9c47f]   
+W, [2023-12-26T19:43:42.482318 #75597]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-12-26T19:43:46.347521 #75597]  INFO -- : [c34c0564-da73-401e-bf80-1d620069f8fa] Started GET "/" for 127.0.0.1 at 2023-12-26 19:43:46 +0900
+I, [2023-12-26T19:43:46.349347 #75597]  INFO -- : [c34c0564-da73-401e-bf80-1d620069f8fa] Processing by MemosController#index as HTML
+I, [2023-12-26T19:43:46.362405 #75597]  INFO -- : [c34c0564-da73-401e-bf80-1d620069f8fa]   Rendered memos/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 1972)
+I, [2023-12-26T19:43:46.364096 #75597]  INFO -- : [c34c0564-da73-401e-bf80-1d620069f8fa]   Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 2668)
+I, [2023-12-26T19:43:46.364284 #75597]  INFO -- : [c34c0564-da73-401e-bf80-1d620069f8fa] Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.7ms | Allocations: 4273)
+F, [2023-12-26T19:43:46.365102 #75597] FATAL -- : [c34c0564-da73-401e-bf80-1d620069f8fa]   
+[c34c0564-da73-401e-bf80-1d620069f8fa] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[c34c0564-da73-401e-bf80-1d620069f8fa]      6:     <%= csrf_meta_tags %>
+[c34c0564-da73-401e-bf80-1d620069f8fa]      7:     <%= csp_meta_tag %>
+[c34c0564-da73-401e-bf80-1d620069f8fa]      8: 
+[c34c0564-da73-401e-bf80-1d620069f8fa]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[c34c0564-da73-401e-bf80-1d620069f8fa]     10:     <%= javascript_importmap_tags %>
+[c34c0564-da73-401e-bf80-1d620069f8fa]     11:   </head>
+[c34c0564-da73-401e-bf80-1d620069f8fa]     12: 
+[c34c0564-da73-401e-bf80-1d620069f8fa]   
+[c34c0564-da73-401e-bf80-1d620069f8fa] app/views/layouts/application.html.erb:9
+I, [2023-12-26T19:43:47.982673 #75597]  INFO -- : [00284bbb-d389-4a26-85d1-c4e06164f685] Started GET "/mockServiceWorker.js" for 127.0.0.1 at 2023-12-26 19:43:47 +0900
+F, [2023-12-26T19:43:47.984247 #75597] FATAL -- : [00284bbb-d389-4a26-85d1-c4e06164f685]   
+[00284bbb-d389-4a26-85d1-c4e06164f685] ActionController::RoutingError (uninitialized constant MemosControllerController):
+[00284bbb-d389-4a26-85d1-c4e06164f685]   
+I, [2023-12-26T19:44:17.350953 #75597]  INFO -- : [8c0a00aa-4d61-4578-9d29-d57392b65e35] Started GET "/mockServiceWorker.js" for 127.0.0.1 at 2023-12-26 19:44:17 +0900
+F, [2023-12-26T19:44:17.351558 #75597] FATAL -- : [8c0a00aa-4d61-4578-9d29-d57392b65e35]   
+[8c0a00aa-4d61-4578-9d29-d57392b65e35] ActionController::RoutingError (uninitialized constant MemosControllerController):
+[8c0a00aa-4d61-4578-9d29-d57392b65e35]   
